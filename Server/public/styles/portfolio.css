@@ -1,0 +1,208 @@
+.page-3{
+    height: 100%;
+    /*background: limegreen;*/
+    width: 95%!important;
+    margin: 0 auto;
+}
+
+.progressLine-0,.progressLine-1,.progressLine-2,.progressLine-3,.progressLine-4{
+/*background: #0c5460;*/
+    margin-bottom: 5px;
+    height: 25%;
+    width: 100%;
+}
+.progressLine-2 span{
+    font-size: 0.6em;
+    font-weight: 600;
+}
+.progressLine-0,.progressLine-1,.progressLine-2,.progressLine-3,.progressLine-4,
+.progressLine-5,.progressLine-6,.progressLine-7,.progressLine-8{
+    font-size: 20px;
+    margin-bottom: 0!important;
+}
+.outter-progress{
+    width: 95%;
+    /*background: lightpink;*/
+    border-radius: 40px;
+    box-shadow: inset 0 3px 20px rgba(0, 0, 0, 0.8);
+    border: 1px solid rgb(160, 160, 160);
+
+}
+.progressLine-5,.progressLine-6,.progressLine-7,.progressLine-8{
+    /*background: #0c5460;*/
+    width: 100%;
+    height: 38%;
+    margin-bottom: 5px;
+}
+.Frontend p,.Backend p,.Databases p,.OtherStuff p{
+    margin-bottom: 0;
+}
+.progressBar{
+    text-shadow: 0 1px 1px #fff;
+    padding: 0!important;
+    /*background: #9fcdff;*/
+    height: 90%;
+}
+.progressBar h4{
+    font-size: 1.2rem!important;
+}
+
+.progress-0,.progress-1,.progress-2,.progress-3,.progress-4{
+    /*background: #600700;*/
+    height: 30%;
+    width: 100%;
+    border-radius: 40px;
+    /*box-shadow: inset 0 0 10px #000000;*/
+    box-shadow: 0px 4px 4px -4px rgba(255, 255, 255, 0.4), 0px -3px 3px -3px rgba(255, 255, 255, 0.25), inset 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(255,255,255,0.25);
+}
+.progress-5,.progress-6,.progress-7,.progress-8{
+    /*background: #600700;*/
+    height: 25%;
+    width: 100%;
+    border-radius: 40px;
+    box-shadow: inset 0 0 10px #000000;
+}
+.inner-progress-0:before,
+.inner-progress-1:before,
+.inner-progress-2:before,
+.inner-progress-3:before,
+.inner-progress-4:before,
+.inner-progress-5:before,
+.inner-progress-6:before,
+.inner-progress-7:before,
+.inner-progress-8:before
+{
+    /*background-color: #FFEB3B;*/
+    background-image: -webkit-linear-gradient(top, #efeeee 0%,#bcb9b8 100%);
+    height: 100%;
+    z-index: 0;
+    position: absolute;
+    display: block;
+    content: "";
+    width: 100%;
+    background-size: 500px 500px;
+    border-radius: 40px;
+    transition: opacity 3s linear;
+    animation: sparkle 10s linear forwards;
+    box-shadow: inset 0 50px rgba(255,255,255,0.2), inset 0 -15px 30px rgba(0,0,0,0.4), 0 5px 10px rgba(0,0,0,0.5);
+}
+@keyframes sparkle {
+
+    25% {
+        opacity: 0.95;
+    }
+    50% {
+          opacity: 0.85;
+      }
+    75% {
+        opacity: 0.75;
+    }
+    85% {
+        opacity: 0.5;
+    }
+    95% {
+        opacity: 0.25;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.inner-progress-0,.inner-progress-1,.inner-progress-2,.inner-progress-3,.inner-progress-4,.inner-progress-5,.inner-progress-6,.inner-progress-7,.inner-progress-8{
+    background: #FFEB3B;
+/*background-image: -webkit-linear-gradient(top, #efeeee 0%,#bcb9b8 100%);*/
+    /*background-image:url("/images/shadow/shadow.png");*/
+    position: relative;
+    z-index: 0;
+    /*background-color: #FFEB3B;*/
+    height: 60%;
+    width: 0;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 40px;
+    box-shadow: inset 0 50px rgba(255,255,255,0.2),
+    inset 0 -15px 30px rgba(0,0,0,0.4),
+    0 5px 10px rgba(0,0,0,0.5);
+
+}
+.progressBar-1{
+    width: 100%;
+    height: 60%;
+}
+.progressBar-2{
+    width: 100%;
+    height: 45%;
+}
+
+.Frontend,.Backend,.Databases,.OtherStuff{
+   width: 50%;
+    height: 100%;
+}
+
+/*.progressBar-1{*/
+    /*background: darkred;*/
+/*}*/
+/*.progressBar-2{*/
+    /*background: #8b3485;*/
+/*}*/
+/*.Frontend{*/
+    /*background: darkgoldenrod;*/
+/*}.Backend{*/
+    /*background: lightcoral;*/
+  /*}.Databases{*/
+    /*background: lightseagreen;*/
+      /*}.OtherStuff{*/
+    /*background: lightpink;*/
+              /*}*/
+
+@media only screen and (max-width: 1200px) {
+    .progress-0,.progress-1,.progress-2,.progress-3,.progress-4,.progress-5,.progress-6,.progress-7,.progress-8{
+        height: 45%;
+        width: 100%;
+    }
+    .progressBar h4 {
+        font-size: 0.9rem !important;
+    }
+    .slick-dots{
+        top: -40px !important;
+    }
+}
+@media only screen and (max-width: 690px) {
+    .progress-0, .progress-1, .progress-2, .progress-3, .progress-4, .progress-5, .progress-6, .progress-7, .progress-8 {
+        height: 35%;
+        width: 100%;
+    }
+    .Frontend p, .Backend p, .Databases p, .OtherStuff p {
+        margin-bottom: 0;
+        font-size: 13px;
+    }
+    .Frontend , .Backend , .Databases , .OtherStuff {
+       padding-right: 0!important;
+        padding-left: 5px!important;
+    }
+    .nav-1 a {
+        font-size: 20px;
+    }
+    .nav-1 {
+        padding-left: 5px!important;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .progress-0, .progress-1, .progress-2, .progress-3, .progress-4, .progress-5, .progress-6, .progress-7, .progress-8 {
+        height: 30%;
+        width: 100%;
+    }
+    .Frontend p, .Backend p, .Databases p, .OtherStuff p {
+        margin-bottom: 0;
+        font-size: 10px;
+    }
+.progressLine-5,.progressLine-6,.progressLine-7,.progressLine-8 {
+        height: 30%;
+    }
+    .progressBar h4 {
+
+        font-size: 0.7rem !important;
+
+    }
+}

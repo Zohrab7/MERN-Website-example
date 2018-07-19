@@ -1,0 +1,15 @@
+.page-1 {
+    height: 100%;
+    /*background: lightseagreen;*/
+    width: 95% !important;
+    margin: 0 auto;
+    text-align: justify;
+    text-shadow: 0 1px 1px #fff;
+}
+.edu-row-0 img,.edu-row-1 img,.edu-row-2 img{
+    border-radius: 0.5rem!important;
+}
+
+.eduInfo{
+    margin-top: 60px;
+}

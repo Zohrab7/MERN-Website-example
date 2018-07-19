@@ -1,0 +1,164 @@
+.page-4 {
+    height: 100%;
+    /*background: darkolivegreen;*/
+    width: 95% !important;
+    margin: 0 auto;
+}
+
+/*Map Area*/
+.map-area {
+    border-radius: 10px;
+    /*box-shadow: inset 0 0 10px #000000;*/
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+    width: 100%;
+    height: 40%;
+    padding: 10px;
+}
+
+/*Contact Area*/
+.left-f-area {
+    /*background: lightseagreen;*/
+    width: 100%;
+    height: 35%;
+}
+
+.inp-container-1 {
+    width: 100%;
+    height: 70%;
+    /*background: lightyellow;*/
+}
+
+.inp-container-2 {
+    width: 100%;
+    height: 90%;
+    /*background: #ed7fff;*/
+}
+
+.message-area {
+    width: 80%;
+    height: 100%;
+    /*background: #96faac;*/
+}
+
+.message-area span {
+    /*background: lightpink;*/
+    height: 20%;
+}
+
+.message-input {
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+    color: #000000;
+    padding: 10px;
+    overflow: hidden;
+    height: 80%;
+    /*background: darkgoldenrod;*/
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+    border-radius: 15px;
+}
+
+.button-area {
+    width: 20%;
+    height: 90%;
+    /*background: lightskyblue;*/
+}
+
+.m-button {
+    font-weight: 700;
+    text-shadow: 0 1px 1px #fff;
+    color: #766a54;
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: -webkit-radial-gradient(50% 0%, 8% 50%, hsla(0, 0%, 100%, .5) 0%, hsla(0, 0%, 100%, 0) 100%), -webkit-radial-gradient(50% 100%, 12% 50%, hsla(0, 0%, 100%, .6) 0%, hsla(0, 0%, 100%, 0) 100%), -webkit-radial-gradient(0% 50%, 50% 7%, hsla(0, 0%, 100%, .5) 0%, hsla(0, 0%, 100%, 0) 100%), -webkit-radial-gradient(100% 50%, 50% 5%, hsla(0, 0%, 100%, .5) 0%, hsla(0, 0%, 100%, 0) 100%), -webkit-repeating-radial-gradient(50% 50%, 100% 100%, hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0) 3%, hsla(0, 0%, 0%, .1) 3.5%), -webkit-repeating-radial-gradient(50% 50%, 100% 100%, hsla(0, 0%, 100%, 0) 0%, hsla(0, 0%, 100%, 0) 6%, hsla(0, 0%, 100%, .1) 7.5%), -webkit-repeating-radial-gradient(50% 50%, 100% 100%, hsla(0, 0%, 100%, 0) 0%, hsla(0, 0%, 100%, 0) 1.2%, hsla(0, 0%, 100%, .2) 2.2%), -webkit-radial-gradient(50% 50%, 200% 50%, hsla(0, 0%, 90%, 1) 5%, hsla(0, 0%, 85%, 1) 30%, hsla(0, 0%, 60%, 1) 100%);
+    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.2), 0 1px 0 #2D2D2D, 0 2px 0 #949494, 0 3px 0 #949494, 0 4px 0 #323232, 0 0 0 6px #949494, 0 4px 0 6px #949494, 0 0 0 7px #222, 0 4px 0 7px #aaa;
+}
+
+.m-button:hover {
+    color: #0094ff;
+    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.2), 0 1px 0 #0094ff, 0 2px 0 #949494, 0 3px 0 #949494, 0 4px 0 #0094ff, 0 0 0 6px #949494, 0 4px 0 6px #949494, 0 0 0 7px #222, 0 4px 0 7px #0094ff;
+}
+
+.m-button:active {
+    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.2), 0 1px 0 #4a4848, 0 2px 0 #949494, 0 3px 0 #949494, 0 4px 0 #959595, 0 0 0 6px #949494, 0 4px 0 6px #949494, 0 0 0 7px #222, 0 4px 0 7px #aaa;
+}
+
+.message-area span {
+    width: 40%;
+    text-shadow: 0 1px 1px #fff;
+}
+
+.input-1, .input-2 {
+    margin: 0 auto;
+    height: 40%;
+    width: 90%;
+    margin-bottom: 10px;
+    /*background: darkgoldenrod;*/
+}
+
+.input-1 span,
+.input-2 span {
+    /*background: forestgreen;*/
+    width: 30%;
+    text-shadow: 0 1px 1px #fff;
+}
+
+.name-area, .email-area {
+    height: 90%;
+    width: 60%;
+}
+
+.name-area,
+.email-area {
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+    color: #000000;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 7px;
+    /*background: darkred;*/
+    border-radius: 30px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+}
+
+.right-f-area {
+    /*background: lightgreen;*/
+    width: 100%;
+    height: 65%;
+}
+
+.form-area {
+    /*background: #ff7073;*/
+    width: 80%;
+    margin: 0 auto;
+    height: 60%;
+}
+
+.inp-container-1 {
+    font-size: 15px;
+}
+
+@media only screen and (min-width: 576px) {
+    .form-area {
+        width: 80% !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .form-area {
+        width: 100% !important;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .form-area {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .form-area {
+        width: 80% !important;
+    }
+}
+
+
