@@ -12,7 +12,9 @@ export const Layout2 = (props) => {
             <link rel="icon" href="images/favicon.ico"/>
             <title>The Official Website of Zohrab Aleksanyan</title>
             <link rel="stylesheet" href="/styles/bootstrap4/bootstrap.min.css"/>
-            <link rel="stylesheet" href="/styles/fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.css"/>
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+                  integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+                  crossOrigin="anonymous"/>
             <link rel="stylesheet" href="/styles/animate.css-master/animate.min.css"/>
             <link rel="stylesheet" href="/styles/magic-master/magic.min.css"/>
             <link rel="stylesheet" href="/styles/text-resize.css"/>
