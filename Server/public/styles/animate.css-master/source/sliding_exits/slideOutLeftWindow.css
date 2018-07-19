@@ -1,0 +1,14 @@
+@keyframes slideOutLeftWindow {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    transform: translate3d(-80%, 0, 0);
+  }
+}
+
+.slideOutLeftWindow {
+  animation-name: slideOutLeftWindow;
+}
